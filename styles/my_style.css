@@ -1,0 +1,196 @@
+
+/*-----------------------general tags------------------*/
+body
+{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color:#1C1427;
+}
+
+
+
+h1
+{
+    font-size:562.5%;
+    margin: 0px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color:#1C1427;
+    line-height: 2;
+        
+}
+
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:#CCFFBD;
+    font-weight: normal;
+    line-height: 2;
+
+}
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    color:#CCFFBD;
+    
+}
+a
+{
+    color:#7ECA9C;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+a:hover
+{
+    color:#CCFFBD;
+}
+
+
+hr
+{
+    width:5%;
+    border-width: 6px 0 0 0;
+    border-style: dotted;
+    border-color:#7ECA9C;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+p
+{
+    color:#CCFFBD;
+    margin: 10px 20px;
+
+}
+
+
+/*--------------------------text formatting---------------------*/
+
+.hello
+{
+    color:#CCFFBD
+}
+
+.footer-link
+{
+    margin: 20px 30px;
+
+
+}
+.copyright
+{
+    margin-top: 20px;
+    font-size: 0.75rem;
+}
+.subtitle
+{
+    color: #1C1427;
+}
+
+
+
+/*-----------------------containers------------------*/
+
+.top-container
+{
+    /*height: 200px;
+    width: 200px;*/
+   
+    background-color: #CCFFBD;
+
+    padding-top: 100px;
+    position:relative;
+
+}
+
+.middle-container
+{
+    margin:100px 0;
+
+   
+
+
+}
+.bottom-container
+{
+    height: 100px;
+    background-color: #40394A;
+    padding: 50px 0 16px;
+   
+}
+
+
+
+/*-----------------------images------------------*/
+
+
+.bottom-cloud
+{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.top-cloud
+{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+
+.profile-photo
+{
+    width: 200px;
+}
+
+.skill-row
+{
+    margin:  100px auto;
+    width:50%;
+    text-align: left;
+    line-height:2;
+
+}
+
+.prog-skill
+{
+    float: left;
+    width:15%;
+    margin-right: 30px;  
+}
+.gaming-skill
+{
+    width: 15%;
+    float:right;
+    margin-left: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+/* -----------------------------button code-----------------------------*/
+.contact-button {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 40px;
+    background-color: #7ECA9C;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    
+ }
+ 
+ 
